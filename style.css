@@ -1,4 +1,13 @@
-body {
+header {
+	height:20px;
+	width: 20px;
+}
+
+main {
+
+}
+
+footer {
 
 }
 
@@ -11,15 +20,33 @@ h1 {
 	height: 600px;
 	width: 600px;
 	background-image: center center;
+}
 
-nav {
-
+.navdecor {
+	text-decoration: none;
 }
 
 #logo {
+	height: 20px;
+	width: 20px;
+}
+
+#house {
 
 }
 
-#hello {
+#dog {
 
+}
+
+#ski {
+
+}
+
+#hike {
+
+}
+
+#cross {
+	
 }
