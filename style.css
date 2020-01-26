@@ -3,9 +3,11 @@ body {
 }
 
 h1 {
-	background-image: url(///Users/andrewfrazier/Desktop/dc142d4b827b956bfcbe5ab1baef9d1e.jpg);
+	
 }
-section {
+
+#one {
+	background-image: url(///Users/andrewfrazier/Desktop/dc142d4b827b956bfcbe5ab1baef9d1e.jpg);
 	height: 600px;
 	width: 600px;
 	background-image: center center;
