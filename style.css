@@ -1,25 +1,84 @@
 header {
-	height:20px;
-	width: 20px;
+	border: solid 2px red;
+	height: 100%;
+	margin: 0;
+
+}
+
+nav {
+	border: yellow solid 2px;
 }
 
 main {
-
+	border: solid 2px red;
+	height: 100%;
+	margin: 0;
+	text-align: center;
 }
 
 footer {
-
+	border: solid 2px red;
+	height: 100%;
+	margin: 0;
+	background-color: #1aa3ff;
+	color: white;
+	text-align: center;
 }
 
 h1 {
-	
+	color: white;\
 }
 
-#one {
-	background-image: url(///Users/andrewfrazier/Desktop/dc142d4b827b956bfcbe5ab1baef9d1e.jpg);
-	height: 600px;
-	width: 600px;
-	background-image: center center;
+p {
+	color: white;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+}
+
+li {
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+div	{
+	border: solid black 2px;
+}
+
+.whiteheader {
+	color: white;
+}
+
+.blueheader {
+	color: blue;
+}
+#mountain {
+	background-image: url(///Users/andrewfrazier/Desktop/mountain%232.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:100%;
+}
+
+#section1 {
+	border: solid 2px blue;
+	background-color: #1aa3ff;
+	text-align: center;
+}
+
+#section2 {
+	border: solid 2px orange;
+}
+
+#section3 {
+	border: solid 2px yellow;
 }
 
 .navdecor {
@@ -32,21 +91,25 @@ h1 {
 }
 
 #house {
-
+	background-image: url(../../house.pdf);
 }
 
 #dog {
-
+	background-image: url(///Users/andrewfrazier/Desktop/dog.jpg.pdf);
 }
 
 #ski {
-
+	background-image: url(///Users/andrewfrazier/Desktop/ski.pdf);
 }
 
 #hike {
-
+	background-image: url(///Users/andrewfrazier/Desktop/hike.jpg.pdf);
 }
 
 #cross {
-	
+	background-image: url(///Users/andrewfrazier/Desktop/cross.jpg.pdf);
+}
+
+#girl {
+	background-image: url(///Users/andrewfrazier/Desktop/girl.pdf);
 }
