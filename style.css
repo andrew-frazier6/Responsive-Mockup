@@ -27,6 +27,7 @@ header > h1 {
   color: white;
   align-self: center;
   justify-self: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 nav {
@@ -70,8 +71,6 @@ nav > img {
 nav > ul > li {
   padding: 0 20px;
 }
-
-/* HERO SECTION ====================================*/
 
 main {
   height: 100vh;
@@ -163,13 +162,15 @@ figcaption > button {
 
 .blueheader {
   color: #1aa3ff;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   height: 100px;
   width: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 #section1 {
@@ -183,6 +184,7 @@ figcaption > button {
   justify-content: center;
   box-sizing: border-box;
   line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
 }
 
 #section3 {
@@ -254,6 +256,34 @@ figcaption > button {
   align-content: center;
 }
 
+.testimonial {
+  text-align: center;
+  margin: 0px 400px 0 400px;
+}
+
+.testimonial > p {
+  color: #1aa3ff;
+  font-family: "Montserrat", sans-serif;
+}
+
 .Carolyn {
   text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #1aa3ff;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.end {
+  padding: 0;
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  justify-content: space-evenly;
+  background-color: #1aa3ff;
+  font-family: "Montserrat", sans-serif;
 }
