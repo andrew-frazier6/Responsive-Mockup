@@ -4,6 +4,11 @@ body {
   box-sizing: border-box;
 }
 
+footer {
+  margin-top: 50px;
+  height: 100vh;
+  width: 100%;
+}
 /* HEADER COMPONENT =========================================*/
 header {
   height: 100vh;
@@ -69,18 +74,21 @@ nav > ul > li {
 /* HERO SECTION ====================================*/
 
 main {
-  border: solid 2px red;
   height: 100vh;
   margin: 0;
 }
 
 footer {
-  border: solid 2px red;
   height: 100px;
   margin: 0;
   background-color: #1aa3ff;
   color: white;
   text-align: center;
+}
+
+.end {
+  height: 30vh;
+  width: 100%;
 }
 
 p {
@@ -102,18 +110,32 @@ a {
   color: white;
   text-decoration: none;
 }
-
-#sectionholder {
-  padding: 20px;
+/* GRID section */
+.sectionholder {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 120px 1fr 240px;
+  grid-template-columns: 240px 120px;
+  height: 400px;
   align-items: center;
+  justify-content: space-evenly;
 }
 
+.item {
+}
+
+/* GRID SECITON */
 .whiteheader {
   color: white;
 }
 
 .blueheader {
-  color: blue;
+  color: #1aa3ff;
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100%;
+  text-align: center;
 }
 
 #section1 {
@@ -129,46 +151,63 @@ a {
   line-height: 1.5;
 }
 
-#section2 {
-  height: 100vh;
-  display: grid;
-}
-
 #section3 {
-  border: solid 2px yellow;
+  margin: 0;
+  width: 100%;
 }
 
 .navdecor {
   text-decoration: none;
 }
 
-#logo {
+.logo {
   height: 20px;
   width: 100px;
 }
 
-#house {
-  background-image: url();
-  height: 50px;
-  width: 50px;
+.house {
+  background-image: url(./assets/images/house.jpg);
+  border: solid black 2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#dog {
+.dog {
   background-image: url("./assets/images/dog.jpg");
+  border: solid black 2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#ski {
+.ski {
   background-image: url("./assets/images/ski.jpg");
+  border: solid black 2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#hike {
+.hike {
   background-image: url("./assets/images/hike.jpg");
+  border: solid black 2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#cross {
-  background-image: url("assets/images/cross.jpg");
+.cross {
+  background-image: url("./assets/images/cross.jpg");
+  border: solid black 2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#girl {
-  background-image: url("assets/images/girl.jpg");
+.girl {
+  background-image: url("./assets/images/girl.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
