@@ -1,16 +1,16 @@
-Project Title
+**Project Title**
 Snow Mount
 
-Getting Started
+**Getting Started**
 building out all the divs first as well as the grid for the photos in the middle
 
-Prerequisites
+**Prerequisites**
 none
 
-Built With
+**Built With**
 HTML and CSS
 
-Authors
+**Authors**
 Andrew Frazier - General Assembly
 
 Title:
