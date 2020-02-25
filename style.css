@@ -1,4 +1,6 @@
 body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,7 +8,7 @@ body {
 
 footer {
   margin-top: 50px;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 /* HEADER COMPONENT =========================================*/
@@ -23,6 +25,13 @@ header {
   justify-content: space-between;
 }
 
+.header-logo {
+  margin-left: 30px;
+}
+.container {
+  margin-right: 30px;
+}
+
 header > h1 {
   color: white;
   align-self: center;
@@ -37,6 +46,11 @@ nav {
   height: 75px;
   align-items: center;
 }
+
+nav li:hover {
+  text-decoration: underline;
+}
+
 nav > img {
   height: auto;
   width: 100px;
@@ -86,7 +100,7 @@ footer {
 }
 
 .end {
-  height: 30vh;
+  height: 25vh;
   width: 100%;
 }
 
@@ -259,6 +273,7 @@ figcaption > button {
 .testimonial {
   text-align: center;
   margin: 0px 400px 0 400px;
+  margin-bottom: 80px;
 }
 
 .testimonial > p {
@@ -276,14 +291,36 @@ figcaption > button {
 }
 
 .end {
-  padding: 0;
-  margin-top: 120px;
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 100px;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-  justify-content: space-evenly;
+  bottom: 0;
+  position: relative;
+  margin-bottom: 0;
   background-color: #1aa3ff;
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.end h2 {
+  margin: 5px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.end p {
+  margin: 0;
+  padding: 0;
+}
+
+.end .icons {
+  margin: 5px;
+  padding: 0;
+  height: 15px;
+  width: 15px;
+}
+
+.logo-end {
+  display: flex;
+  flex-direction: column;
 }
