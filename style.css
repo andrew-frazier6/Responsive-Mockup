@@ -324,3 +324,8 @@ figcaption > button {
   display: flex;
   flex-direction: column;
 }
+
+#elipses {
+  height: 20px;
+  width: 40px;
+}
